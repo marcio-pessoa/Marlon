@@ -33,6 +33,7 @@ marlin Mark I - Marlink 3D Printer, Change log file
 ### Added
 - Full Graphic Smart Controller.
 - SD Card support.
+
 ### Changed
 - Printer name set to "Marlin".
 
