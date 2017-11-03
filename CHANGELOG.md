@@ -1,17 +1,13 @@
 # CHANGELOG
 marlin Mark I - Marlink 3D Printer, Change log file
 
-## [1.1.5] 2017-10-28
-### Added
-- Enable: CoreXY
-
 ## [1.1.5] - 2017-10-27
 ### Added
-- CoreXY
+- CoreXY.
 
 ## [1.1.5] - 2017-10-12
 ### Changed
-- Improvement: Verbose output messages.
+- Verbose output messages.
 
 ## [1.1.5] - 2017-09-08
 ### Changed
@@ -31,15 +27,14 @@ marlin Mark I - Marlink 3D Printer, Change log file
 
 ## [1.1.0-RC8] - 2017-02-24
 ### Changed
-- Thermistor minimum temperature to 0
+- Thermistor minimum temperature to 0.
 
 ## [1.1.0-RC8] - 2017-02-22
 ### Added
-- Full Graphic Smart Controller
-- SD Card support
-- Thermistor minimum temperature set to 0
+- Full Graphic Smart Controller.
+- SD Card support.
 ### Changed
-- Printer name set to "Marlin"
+- Printer name set to "Marlin".
 
 ## 2016-01-16
 ### Added
