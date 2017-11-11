@@ -1,5 +1,8 @@
 # CHANGELOG
-marlin Mark I - Marlink 3D Printer, Change log file
+
+## [1.1.5] - 2017-11-11
+### Changed
+- Printer name set to "Marlon".
 
 ## [1.1.5] - 2017-10-27
 ### Added
