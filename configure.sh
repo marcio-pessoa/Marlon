@@ -1,18 +1,19 @@
 #!/bin/sh
-# 
+#
 # configure.sh
-# 
-# Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
-# Contributors: none
-# 
+#
 # Description:
 #   Automatic configuration script.
-# 
+#
+# Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
+# Contributors: none
+#
 # Change log:
 # 2017-11-11
 #         Tested on: Marlin 1.1.6.
 #         Set: Printer name to "Marlon".
-# 
+#         Set: Who made the changes.
+#
 # 2017-10-27
 #         Tested on: Marlin 1.1.5.
 #         Enable: CoreXY
@@ -45,7 +46,7 @@
 #         Enable: Full Graphic Smart Controller.
 #         Enable: SD Card support.
 #         Set: Printer name to "Marlin".
-# 
+#
 # 2016-01-16
 #         Project definition.
 #
@@ -103,8 +104,13 @@ sed -i -e 's/\#define HEATER_0_MINTEMP 5/\#define HEATER_0_MINTEMP 0/' "$FILE"
 check_return $?
 
 # Set: Printer name to "Marlon"
-echo "        Setting Printer name to \"Marlon\"... \c"
+echo "        Setting Printer name... \c"
 sed -i -e 's/\/\/#define CUSTOM_MACHINE_NAME \"3D Printer\"/\#define CUSTOM_MACHINE_NAME \"Marlon\"/' "$FILE"
+check_return $?
+
+# Set: Who made the changes
+echo "        Setting Who made the changes... \c"
+sed -i -e 's/#define STRING_CONFIG_H_AUTHOR \"(none, default config)\"/\#define STRING_CONFIG_H_AUTHOR \"Marcio Pessoa\"/' "$FILE"
 check_return $?
 
 # Invoke xc

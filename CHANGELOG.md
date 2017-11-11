@@ -3,6 +3,7 @@
 ## [1.1.6] - 2017-11-11
 ### Changed
 - Printer name set to "Marlon".
+- Who made the changes.
 
 ## [1.1.5] - 2017-10-27
 ### Added
