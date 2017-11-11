@@ -9,6 +9,10 @@
 #   Automatic configuration script.
 # 
 # Change log:
+# 2017-11-11
+#         Tested on: Marlin 1.1.6.
+#         Set: Printer name to "Marlon".
+# 
 # 2017-10-27
 #         Tested on: Marlin 1.1.5.
 #         Enable: CoreXY
@@ -35,12 +39,12 @@
 #         Improvement: Added check_return() function.
 #
 # 2017-02-24
-#         Set: Thermistor minimum temperature to 0
+#         Set: Thermistor minimum temperature to 0.
 #
 # 2017-02-22
-#         Enable: Full Graphic Smart Controller
-#         Enable: SD Card support
-#         Set: Printer name to "Marlin"
+#         Enable: Full Graphic Smart Controller.
+#         Enable: SD Card support.
+#         Set: Printer name to "Marlin".
 # 
 # 2016-01-16
 #         Project definition.
@@ -67,7 +71,7 @@ get_updates() {
   git checkout -- "$file"  # Restore original file
   check_return $?
   echo "Getting firmware updates to $WORKDIR $(git show-branch)... \c"
-  git merge  # Get updates from Github
+  git pull  # Get updates from Github
 }
 
 cd $WORKDIR
@@ -98,20 +102,21 @@ echo "        Setting Thermistor minimum temperature to 0... \c"
 sed -i -e 's/\#define HEATER_0_MINTEMP 5/\#define HEATER_0_MINTEMP 0/' "$FILE"
 check_return $?
 
-# Set: Printer name to "Marlin"
-echo "        Setting Printer name to \"Marlin\"... \c"
-sed -i -e 's/\/\/#define CUSTOM_MACHINE_NAME \"3D Printer\"/\#define CUSTOM_MACHINE_NAME \"Marlin\"/' "$FILE"
+# Set: Printer name to "Marlon"
+echo "        Setting Printer name to \"Marlon\"... \c"
+sed -i -e 's/\/\/#define CUSTOM_MACHINE_NAME \"3D Printer\"/\#define CUSTOM_MACHINE_NAME \"Marlon\"/' "$FILE"
 check_return $?
 
 # Invoke xc
-echo "Process: xC (Axes Controller): \c"
+echo "Starting xC (Axes Controller)..."
+xc -v
 case "$action" in
   'verify')
-    xc "$action" --id marlin --verbosity=3
+    xc "$action" --id marlon --verbosity=3
     exit $?
     ;;
   'upload')
-    xc "$action" --id marlin --verbosity=3
+    xc "$action" --id marlon --verbosity=3
     exit $?
     ;;
   *)
