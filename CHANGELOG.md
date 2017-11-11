@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [1.1.5] - 2017-11-11
+## [1.1.6] - 2017-11-11
 ### Changed
 - Printer name set to "Marlon".
 
