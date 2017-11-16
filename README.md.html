@@ -6,20 +6,11 @@
                               Márcio Pessoa
                                 2017-09-16
 
-**w1m1** is an acronim to: Watch Winder with One slot - Mark I.
+Marlon is a Marlin firmware based 3D Printer.
 
-![Figure [T-Slot_2020-6]: T-Slot 2020-6](Documents/representation.png width="45%" border="0")
-Schematic representation of the 3D printing technique known as Fused Filament Fabrication; a filament 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est sit amet nulla consectetur ultrices. Morbi a turpis euismod, porttitor massa a, venenatis nunc. Vestibulum congue sollicitudin odio, at consectetur ante varius suscipit. Duis dapibus odio justo, eget vulputate dolor pharetra et. Suspendisse rhoncus eleifend diam vitae mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam non nibh diam. Integer egestas commodo tortor, at consectetur massa congue sit amet. Nullam ultricies eros quis mi lobortis, sit amet congue ante ullamcorper. Duis tempor et turpis sit amet viverra. Nunc et quam enim. Praesent a diam vel leo laoreet malesuada. In pretium hendrerit lectus dignissim facilisis. Cras sit amet metus augue.
 
-a) of plastic material is fed through a heated moving head 
-
-b) that melts and extrudes it depositing it, layer after layer, in the desired shape 
-
-c) A moving platform 
-
-e) lowers after each layer is deposited. For this kind of technology additional vertical support structures 
-
-d) are needed to sustain overhanging parts
+Aliquam neque orci, commodo eu suscipit sit amet, malesuada et lorem. Suspendisse eu libero a metus ultricies molestie. Nulla sollicitudin massa a lacus fringilla sagittis eu eu magna. Aenean ullamcorper eros purus, eget commodo urna egestas eu. Nam lacus est, commodo quis imperdiet pretium, tristique ut ex. Sed nisi libero, tincidunt ut ullamcorper in, faucibus a neque. Praesent turpis velit, sollicitudin eget gravida et, rhoncus quis lectus. Quisque congue, nisl in viverra convallis, ex ligula eleifend lectus, eu interdum odio neque eget massa. Nam pretium, dui vel efficitur pulvinar, lectus dui consequat libero, a consequat nunc massa at est. Donec et tincidunt enim. Ut ultrices elit vel magna convallis viverra. In ex tellus, aliquet quis tortor eget, maximus faucibus massa. Praesent sed tortor bibendum nunc ornare volutpat posuere eu arcu. Donec tempor purus vitae turpis posuere efficitur. Duis purus dolor, venenatis ut odio vel, pellentesque tempus ex. Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
 
 # Mechanics
 
@@ -243,10 +234,14 @@ ATX Power with PS_ON
  68 |  14 | -         | -         | TEMP_1_PIN                               
  69 |  15 | -         | -         | -                                        
 
-### RAMPS
-[#RAMPS_Shield] Version 1.4.
+## RAMPS
+![Figure [RAMPS]: RAMPS 1.4](Documents/Arduinomega1-4connectors.png width="45%" border="0")
+RepRap Arduino Mega Pololu Shield, or RAMPS for short. It is designed to fit the entire electronics needed for a RepRap in one small package for low cost. RAMPS interfaces an Arduino Mega with the powerful Arduino MEGA platform and has plenty room for expansion. The modular design includes plug in stepper drivers and extruder control electronics on an Arduino MEGA shield for easy service, part replacement, upgrade-ability and expansion. Additionally, a number of Arduino expansion boards can be added to the system as long as the main RAMPS board is kept to the top of the stack.
 
-### Stepper drivers
+[#RAMPS_Shield] Version 1.4.
+License	GPL
+
+## Stepper drivers
 [#Stepper_drivers] modelo A4988.
 
 [#Stepper_drivers_heat_sink]
@@ -264,11 +259,9 @@ ATX Power with PS_ON
 
 ## Hot bed
 
-## Other components
+## Sensors
 
-### End stop sensor
-Olhando o plug macho da tomada com os pinos voltados para sua face:
-
+### Endstop sensor
 ![Figure [TCST2103]: [TCST2103](Documents/TCST2103.pdf)](Documents/TCST2103.png width="50%" border="0")
 
 # Software
@@ -285,6 +278,9 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
 > As a community product, Marlin aims to be adaptable to as many boards and configurations as possible. We want it to be configurable, customizable, extensible, and economical for hobbyists and vendors alike. A Marlin build can be very small, for use on a headless printer with only modest hardware. Features are enabled as-needed to adapt Marlin to added components."
 >
 >                                           -- From: [Marlin][Marlin] web page.
+
+### Configuring
+[Configuring][Marlin_Configuring]
 
 ### G-code
 [G-code][Marlin_G-code]
@@ -420,7 +416,7 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
   - Charge: **USD 2.489145** (AUD $3.18)
 
 [#Optical Endstop]: (electronic)
-: Detailed specifications in the Power cable section, purchase information:
+: Detailed specifications in the Endstop sensor section, purchase information:
   - Quantity: 7
   - Unit: each
   - ID: 381842310412
@@ -542,6 +538,8 @@ http://reprap.org/wiki/NEMA_17_Stepper_motor
 [CoreXY]: http://corexy.com/
 [RAMPS]: http://reprap.org/wiki/RAMPS
 [Marlin]: http://marlinfw.org/
+[Marlin_GitHub]: https://github.com/MarlinFirmware/Marlin
 [Marlin_G-code]: http://marlinfw.org/meta/gcode/
+[Marlin_Configuring]: http://marlinfw.org/docs/configuration/configuration.html
 
 <!-- Markdeep: --><style class="fallback">body{white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="http://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
