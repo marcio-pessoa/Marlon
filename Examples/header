@@ -1,0 +1,10 @@
+;
+;
+;
+
+G90     ; Absolute Positioning
+G21     ; Millimeter Units
+M149 C  ; Set Temperature Units to Celsius
+M501    ; Restore Settings
+M115    ; Firmware Info
+M100    ; Free Memory

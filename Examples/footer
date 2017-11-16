@@ -1,0 +1,2 @@
+M100     ; Free Memory
+G28 X Y  ; Home x and y axes
