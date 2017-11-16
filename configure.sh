@@ -9,6 +9,14 @@
 # Contributors: none
 #
 # Change log:
+# 2017-11-15
+#         Tested on: Marlin 1.1.6.
+#         Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
+#         Enable: Memory Monitoring
+#         Enable: Print Counter
+#         Enable: EEPROM
+#         Enable: Speaker
+#
 # 2017-11-11
 #         Tested on: Marlin 1.1.6.
 #         Set: Printer name to "Marlon".
@@ -24,11 +32,11 @@
 #
 # 2017-09-08
 #         Tested on: Marlin 1.1.5.
-#         Improvement: Invoke xc inside this program.
+#         Improvement: Invoke xc inside configure.sh.
 #
 # 2017-09-07
 #         Tested on: Marlin 1.1.x.
-#         New feature: Added version information to output string.
+#         New feature: Added version information to configure.sh output.
 #
 # 2017-09-04
 #         Tested on: Marlin 1.1.x.
@@ -82,6 +90,31 @@ get_updates $FILE
 
 echo "Applying customization to:"
 echo "    $FILE..."
+
+# Enable: Memory Monitoring
+echo "        Enabling Memory Monitoring... \c"
+sed -i -e 's/\/\/\#define M100_FREE_MEMORY_WATCHER/\#define M100_FREE_MEMORY_WATCHER/' "$FILE"
+check_return $?
+
+# Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
+echo "        Setting Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)... \c"
+sed -i -e 's/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/' "$FILE"
+check_return $?
+
+# Enable: Print Counter
+echo "        Enabling Print Counter... \c"
+sed -i -e 's/\/\/\#define PRINTCOUNTER/\#define PRINTCOUNTER/' "$FILE"
+check_return $?
+
+# Enable: EEPROM
+echo "        Enabling EEPROM... \c"
+sed -i -e 's/\/\/\#define EEPROM_SETTINGS/\#define EEPROM_SETTINGS/' "$FILE"
+check_return $?
+
+# Enable: Speaker
+echo "        Enabling Speaker... \c"
+sed -i -e 's/\/\/\#define SPEAKER/\#define SPEAKER/' "$FILE"
+check_return $?
 
 # Enable: CoreXY
 echo "        Enabling CoreXY... \c"
