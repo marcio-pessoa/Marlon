@@ -83,7 +83,9 @@ get_updates() {
   git pull  # Get updates from Github
 }
 
-cd $WORKDIR
+date +'Started at: %Y-%m-%d %H:%M:%S'
+
+cd $WORKDIR || exit
 FILE="Marlin/Configuration.h"
 
 get_updates $FILE
