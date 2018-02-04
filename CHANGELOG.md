@@ -1,5 +1,5 @@
-# Change log
-All notable changes to this project will be documented in this file.
+# CHANGELOG
+Marlon Mark I - 3D Printer, Change log
 
 ## [1.1.6] - 2017-11-15
 ### Changed
