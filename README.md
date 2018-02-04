@@ -2,7 +2,9 @@
 Marlon is a Marlin firmware based 3D Printer.
 
 [Change log](CHANGELOG.md)
+
 [Bill of materials](BOM.md)
+
 [Kanban](KANBAN.md)
 
 # Mechanics
@@ -352,6 +354,9 @@ License	GPL
 [G-code][Marlin_G-code]
 
 ### Calibration
+
+## Slic3r
+http://manual.slic3r.org/advanced/command-line
 
 # Using
 
