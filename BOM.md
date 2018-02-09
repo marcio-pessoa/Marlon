@@ -12,7 +12,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     1 | Display            |   272150628431 | 2016-03-08 | 2016-mm-dd | each |   9.22 |  0.59 |   9.81 |
 |     1 | Display_cable      |   272150628431 | 2016-03-08 | 2016-mm-dd | each |   0.00 |  0.00 |   0.00 |
 |     1 | Power_connector    |   172193375231 | 2016-10-09 | 2016-mm-dd | each |   1.99 |  0.13 |   2.12 |
-|     1 | Power_cable        |              - |          - |          - | each |   1.99 |  0.13 |   2.12 |
+|     1 | Power_cable        | -              | -          | -          | each |   1.99 |  0.13 |   2.12 |
 |     1 | Display_knob       |   221939971151 | 2016-04-24 | 2016-mm-dd | each |   1.29 |  0.07 |   1.36 |
 |     1 | Power_switch       |   221989151099 | 2016-02-25 | 2016-mm-dd | each |   2.48 |  0.16 |   2.64 |
 |     7 | Optical_Endstop    |   381842310412 | 2016-12-22 | 2017-05-18 | each |   5.62 |  0.36 |   5.98 |
