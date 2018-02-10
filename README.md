@@ -10,7 +10,7 @@ Marlon is a Marlin firmware based 3D Printer.
 # Mechanics
 
 ## Frame
-<img src="Documents/T-Slot_2020-6.png" width="45%">
+![T-Slot 2020-6](Documents/T-Slot_2020-6.png)
 
 Technical specifications:
 - Frame type: T-Slot 2020-6
@@ -19,7 +19,7 @@ Technical specifications:
 - Depth: 287 mm
 
 ### Hinges
-<img src="Documents/s-l1600.jpg" width="45%">
+![T-Slot 2020 Hinge](Documents/s-l1600.jpg)
 
 T-Slot 2020 Hinge
 
@@ -37,7 +37,7 @@ Technical specifications:
 [#T-Nut_M5] M5 Round Roll fot T-slot 2020 Nickel Plated
 
 ## CoreXY
-<img src="Documents/CoreXY.png" width="45%">
+![CoreXY](Documents/CoreXY.png)
 
 The [CoreXY] is a open source two-axis linear motion implementation developed at MIT Media Lab.
 
@@ -46,22 +46,22 @@ Overall, it delivers the same benefit of the H-bot, a light moving platform, by 
 ### SC8LUU
 ![SC8LUU](Documents/SC8LUU.jpg)
 
-SC8LUU technical specifications:
+Technical specifications:
 
 ### Linear rod
-Linear rail technical specifications:
+Technical specifications:
 - Diameter: 8 mm
 - Lenght: 300 mm
 - Material: Carbon Steel
 
 ### Pulley
-Pulley technical specifications:
+Technical specifications:
 - Timing: 20T
 - Bore: 5mm
 - Belt: GT2 6 mm
 
 ### Belt
-Belt technical specifications:
+Technical specifications:
 - Model: GT2
 - Width: 6 mm
 - Size: <span style="color:#F00">???</span> mm
@@ -71,16 +71,16 @@ Belt technical specifications:
 ### LMH8UU
 ![LMH8UU](Documents/LMH8UU.jpg)
 
-LMH8UU technical specifications:
+Technical specifications:
 - 
 
 ### SHF
 ![SHF](Documents/SHF8.png)
 
-SHF8 technical specifications:
+Technical specifications:
 
 ### Shaft coupler
-Shaft coupler technical specifications:
+Technical specifications:
 - Diameter: 19 mm
 - Lenght: 25 mm
 - Material: Aluminium
@@ -88,7 +88,7 @@ Shaft coupler technical specifications:
 - Shaft: 5 -> 8 mm
 
 ### Threaded rod
-Threaded rod technical specifications:
+Technical specifications:
 - Material: 304 Stainless Steel
 - Diameter: 8 mm
 - Pitch: 2 mm
@@ -96,14 +96,15 @@ Threaded rod technical specifications:
 - Length: 400 mm
 
 ### T8
-T8 anti-backlash nut technical specifications:
+Technical specifications:
 - Material: Brass
 - Big nut diameter: 30mm
 - Thickness: 5mm
 - Small nut diameter: 16mm
+- Feature: anti-backlash
 
 ### Linear rail
-Linear rail technical specifications:
+Technical specifications:
 - Diameter: 8 mm
 - Lenght: 400 mm
 - Material: Carbon Steel
@@ -111,7 +112,7 @@ Linear rail technical specifications:
 # Electronics
 
 ## Power
-Power cord technical specifications:
+Technical specifications:
 https://www.stayonline.com/5-15-c13-10-amp-power-cords.aspx
 
 - N: neutro (black)
@@ -309,7 +310,7 @@ Diagram by: http://busyducks.com/ascii-art-arduinos
 >
 > -- From: [RAMPS]
 
-RAMPS technical specifications:
+Technical specifications:
 - Version: 1.4
 - License: GPL
 
@@ -318,7 +319,7 @@ RAMPS technical specifications:
 Display Cable
 
 ## Stepper drivers
-Stepper_drivers technical specifications:
+Technical specifications:
 - Modelo: A4988
 
 Stepper_drivers_heat_sink
