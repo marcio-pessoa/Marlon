@@ -11,16 +11,23 @@ Marlon is a Marlin firmware based 3D Printer.
 
 ## Frame
 <img src="Documents/T-Slot_2020-6.png" width="45%">
-T-Slot 2020-6
 
 Technical specifications:
-- Width: 337
-- Height: 445
-- Depth: 287
+- Frame type: T-Slot 2020-6
+- Width: 337 mm
+- Height: 445 mm
+- Depth: 287 mm
 
 ### Hinges
 <img src="Documents/s-l1600.jpg" width="45%">
+
 T-Slot 2020 Hinge
+
+Technical specifications:
+- Frame type: T-Slot 2020-6
+- Width: 
+- Height: 
+- Depth: 
 
 ### T-Nut
 [#T-Nut_M3] M3 Round Roll fot T-slot 2020 Nickel Plated
@@ -31,30 +38,30 @@ T-Slot 2020 Hinge
 
 ## CoreXY
 <img src="Documents/CoreXY.png" width="45%">
-CoreXY
 
-The [CoreXY][CoreXY] is a open source two-axis linear motion implementation developed at MIT Media Lab.
+The [CoreXY] is a open source two-axis linear motion implementation developed at MIT Media Lab.
 
 Overall, it delivers the same benefit of the H-bot, a light moving platform, by keeping both motors fixed to the frame. Furthermore, by crossing the belt, the unwanted torque vectors of H-bot model are eliminated.
 
 ### SC8LUU
-![Figure [SC8LUU]: SC8LUU](Documents/SC8LUU.jpg width="45%" border="0")
-[#SC8LUU], Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
+![SC8LUU](Documents/SC8LUU.jpg)
+
+SC8LUU technical specifications:
 
 ### Linear rod
-[#Linear_rail_300mm] technical specifications:
+Linear rail technical specifications:
 - Diameter: 8 mm
 - Lenght: 300 mm
 - Material: Carbon Steel
 
 ### Pulley
-[#Pulley] technical specifications:
+Pulley technical specifications:
 - Timing: 20T
 - Bore: 5mm
 - Belt: GT2 6 mm
 
 ### Belt
-[#Belt] technical specifications:
+Belt technical specifications:
 - Model: GT2
 - Width: 6 mm
 - Size: <span style="color:#F00">???</span> mm
@@ -62,24 +69,18 @@ Overall, it delivers the same benefit of the H-bot, a light moving platform, by 
 ## Elevator (z axis)
 
 ### LMH8UU
-![Figure [LMH8UU]: LMH8UU](Documents/LMH8UU.jpg width="45%" border="0")
-[#LMH8UU] technical specifications:
+![LMH8UU](Documents/LMH8UU.jpg)
+
+LMH8UU technical specifications:
 - 
 
 ### SHF
-![Figure [SHF]: SHF](Documents/SHF.svg width="40%" border="0")
-[#SHF] technical specifications:
-- W: 43 mm
-- B: 30 mm
-- L: 10 mm
-- T: 5 mm
-- G: 20 mm
-- F: 24 mm
-- S: 5.5 mm
-- Shaft: 8 mm
+![SHF](Documents/SHF8.png)
+
+SHF8 technical specifications:
 
 ### Shaft coupler
-Flexible motor [#Shaft_coupler] technical specifications:
+Shaft coupler technical specifications:
 - Diameter: 19 mm
 - Lenght: 25 mm
 - Material: Aluminium
@@ -87,7 +88,7 @@ Flexible motor [#Shaft_coupler] technical specifications:
 - Shaft: 5 -> 8 mm
 
 ### Threaded rod
-[#Threaded_rod] technical specifications:
+Threaded rod technical specifications:
 - Material: 304 Stainless Steel
 - Diameter: 8 mm
 - Pitch: 2 mm
@@ -95,14 +96,14 @@ Flexible motor [#Shaft_coupler] technical specifications:
 - Length: 400 mm
 
 ### T8
-[#T8] anti-backlash nut technical specifications:
+T8 anti-backlash nut technical specifications:
 - Material: Brass
 - Big nut diameter: 30mm
 - Thickness: 5mm
 - Small nut diameter: 16mm
 
 ### Linear rail
-[#Linear_rail_400mm] technical specifications:
+Linear rail technical specifications:
 - Diameter: 8 mm
 - Lenght: 400 mm
 - Material: Carbon Steel
@@ -110,7 +111,8 @@ Flexible motor [#Shaft_coupler] technical specifications:
 # Electronics
 
 ## Power
-Power cord specification[^powercord].
+Power cord technical specifications:
+https://www.stayonline.com/5-15-c13-10-amp-power-cords.aspx
 
 - N: neutro (black)
 - F: fase (white)
@@ -118,7 +120,6 @@ Power cord specification[^powercord].
 
 ### Power connector
 
-    ´´´txt
       *       T        *
       *    +------+    *
       *   /   ▉▉   \   *
@@ -126,11 +127,10 @@ Power cord specification[^powercord].
       *  | ▉▉    ▉▉ |  *
       *  +----------+  *
       *    F      N    *
-    ´´´
     
 IEC 60320 C13
 
-Technical specifications
+Technical specifications:
 - Padrão: IEC-320
 
 ### Power cable
@@ -157,20 +157,18 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
     *  '-------------'  *
     *    ?    T    ?    *
     *********************
-[Figure [NBR14136]: [NBR 14136](Documents/1433_drawing.pdf)]
+    
+[NBR 14136](Documents/1433_drawing.pdf)
 
 ### Power button
-![Figure [CoreXY]: CoreXY](Documents/0M743E_20131224081002290.jpg width="45%" border="0")
-Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
+![Power button](Documents/0M743E_20131224081002290.jpg)
 
 ### Power supply
-[#PSU] ATX Power with PS_ON
+PSU ATX Power with PS_ON
 
 ## Arduino
-[#Arduino_Mega_2560] são muito legais.
 
 ### Diagram
-
 
     *                              .-----.                                        *
     * .----[PWR]-------------------| USB |--.                                     *
@@ -226,7 +224,9 @@ Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viver
     *     \_______________________/                                               *
     *                                                                             *
 
-[Figure [pins]: Arduino Mega 2560 [^busyducks]]
+Arduino Mega 2560
+
+Diagram by: http://busyducks.com/ascii-art-arduinos
 
 ### Pin designation
  id | pin |   type    | direction |               description                
@@ -303,34 +303,38 @@ Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viver
  69 |  15 | -         | -         | -                                        
 
 ## RAMPS
-![Figure [RAMPS]: RAMPS 1.4](Documents/Arduinomega1-4connectors.png width="45%" border="0")
-RepRap Arduino Mega Pololu Shield, or RAMPS for short. It is designed to fit the entire electronics needed for a RepRap in one small package for low cost. RAMPS interfaces an Arduino Mega with the powerful Arduino MEGA platform and has plenty room for expansion. The modular design includes plug in stepper drivers and extruder control electronics on an Arduino MEGA shield for easy service, part replacement, upgrade-ability and expansion. Additionally, a number of Arduino expansion boards can be added to the system as long as the main RAMPS board is kept to the top of the stack.
+![RAMPS 1.4](Documents/Arduinomega1-4connectors.png)
 
-[#RAMPS_Shield] Version 1.4.
-License	GPL
+> RepRap Arduino Mega Pololu Shield, or RAMPS for short. It is designed to fit the entire electronics needed for a RepRap in one small package for low cost. RAMPS interfaces an Arduino Mega with the powerful Arduino MEGA platform and has plenty room for expansion. The modular design includes plug in stepper drivers and extruder control electronics on an Arduino MEGA shield for easy service, part replacement, upgrade-ability and expansion. Additionally, a number of Arduino expansion boards can be added to the system as long as the main RAMPS board is kept to the top of the stack.
+>
+> -- From: [RAMPS]
 
-## Stepper drivers
-[#Stepper_drivers] modelo A4988.
-
-[#Stepper_drivers_heat_sink]
-
-[#LCD]
-
-[#LCD_cable]
-
-## Stepper motor
-[^steppermotor]
+RAMPS technical specifications:
+- Version: 1.4
+- License: GPL
 
 ## Display
 
-### Display Cable
+Display Cable
+
+## Stepper drivers
+Stepper_drivers technical specifications:
+- Modelo: A4988
+
+Stepper_drivers_heat_sink
+
+## Stepper motor
+Stepper motor reference: 
+http://reprap.org/wiki/NEMA_17_Stepper_motor
 
 ## Hot bed
 
 ## Sensors
 
 ### Endstop sensor
-![Figure [TCST2103]: [TCST2103](Documents/TCST2103.pdf)](Documents/TCST2103.png width="50%" border="0")
+![TCST2103](Documents/TCST2103.png)
+
+[TCST2103](Documents/TCST2103.pdf)
 
 # Software
 
@@ -345,13 +349,13 @@ License	GPL
 >
 > As a community product, Marlin aims to be adaptable to as many boards and configurations as possible. We want it to be configurable, customizable, extensible, and economical for hobbyists and vendors alike. A Marlin build can be very small, for use on a headless printer with only modest hardware. Features are enabled as-needed to adapt Marlin to added components."
 >
-> From: [Marlin web page](https://github.com/MarlinFirmware/Marlin)
+> -- From: [Marlin web page]
 
 ### Configuring
-[Configuring][Marlin_Configuring]
+[Marlin Configuring]
 
 ### G-code
-[G-code][Marlin_G-code]
+[Marlin G-code]
 
 ### Calibration
 
@@ -376,18 +380,10 @@ PLA      |
 
 ---
 
-[^powercord]: Power cord technical specifications: https://www.stayonline.com/5-15-c13-10-amp-power-cords.aspx
-
-[^busyducks]: Diagram by: http://busyducks.com/ascii-art-arduinos
-
-[^steppermotor]: Stepper motor reference: 
-http://reprap.org/wiki/NEMA_17_Stepper_motor
-
 [CoreXY]: http://corexy.com/
 [RAMPS]: http://reprap.org/wiki/RAMPS
 [Marlin]: http://marlinfw.org/
-[Marlin_GitHub]: https://github.com/MarlinFirmware/Marlin
-[Marlin_G-code]: http://marlinfw.org/meta/gcode/
-[Marlin_Configuring]: http://marlinfw.org/docs/configuration/configuration.html
-
-<!-- Markdeep: --><style class="fallback">body{white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="http://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+[Marlin on GitHub]: https://github.com/MarlinFirmware/Marlin
+[Marlin G-code]: http://marlinfw.org/meta/gcode/
+[Marlin Configuring]: http://marlinfw.org/docs/configuration/configuration.html
+[Marlin web page]: https://github.com/MarlinFirmware/Marlin
