@@ -25,16 +25,17 @@ T-Slot 2020 Hinge
 
 Technical specifications:
 - Frame type: T-Slot 2020-6
-- Width: 
-- Height: 
-- Depth: 
+- A:  mm
+- B:  mm
+- C:  mm
+- D:  mm
+- E:  mm
 
-### T-Nut
-[#T-Nut_M3] M3 Round Roll fot T-slot 2020 Nickel Plated
+### Round Roll T-Nut for T-slot 2020
 
-[#T-Nut_M4] M4 Round Roll fot T-slot 2020 Nickel Plated
-
-[#T-Nut_M5] M5 Round Roll fot T-slot 2020 Nickel Plated
+#### M3, M4, M5
+Technical specifications:
+- Material: Nickel Plated
 
 ## CoreXY
 ![CoreXY](Documents/CoreXY.png)
