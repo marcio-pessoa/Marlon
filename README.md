@@ -63,9 +63,10 @@ Technical specifications:
 
 ### Belt
 Technical specifications:
-- Model: GT2
-- Width: 6 mm
-- Size: <span style="color:#F00">???</span> mm
+- Standard: GT2
+- Pinch: 2 mm
+- Wide: 6 mm
+- Lenght: <span style="color:#F00">???</span> mm
 
 ## Elevator (z axis)
 
