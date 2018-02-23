@@ -170,6 +170,8 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
 PSU ATX Power with PS_ON
 
 ## Arduino
+Technical specifications:
+- Model: [Arduino Mega 2560]
 
 ### Diagram
 
@@ -226,8 +228,6 @@ PSU ATX Power with PS_ON
      '--.                         .--------'                                     
          \_______________________/                                               
                                                                                  
-
-Arduino Mega 2560
 
 Diagram by: http://busyducks.com/ascii-art-arduinos
 
@@ -322,7 +322,7 @@ Display Cable
 
 ## Stepper drivers
 Technical specifications:
-- Modelo: A4988
+- Model: A4988
 
 Stepper_drivers_heat_sink
 
@@ -337,7 +337,9 @@ http://reprap.org/wiki/NEMA_17_Stepper_motor
 ### Endstop sensor
 ![TCST2103](Documents/TCST2103.png)
 
-[TCST2103](Documents/TCST2103.pdf)
+Technical specifications:
+- Type: Optical
+- Model: [TCST2103](Documents/TCST2103.pdf)
 
 # Software
 
@@ -385,6 +387,7 @@ PLA      |
 
 [CoreXY]: http://corexy.com/
 [RAMPS]: http://reprap.org/wiki/RAMPS
+[Arduino Mega 2560]: 
 [Marlin]: http://marlinfw.org/
 [Marlin on GitHub]: https://github.com/MarlinFirmware/Marlin
 [Marlin G-code]: http://marlinfw.org/meta/gcode/
