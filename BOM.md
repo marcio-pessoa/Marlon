@@ -28,8 +28,8 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Linear_rod_300x8mm   |   152762222389 | 2017-11-15 | pending    | each |  13.58 |  0.87 |  14.45 |
 |     2 | Threaded_rod_400mm   |   272804811413 | 2017-11-19 | pending    | each |  12.09 |  0.76 |  12.85 |
 |     2 | TR8                  |   272804811413 | 2017-11-19 | pending    | each |   0.00 |  0.00 |   0.00 |
-|     1 | Back_panel_304x46    | pending        | pending    | pending    | each |        |       |        |
-|     1 | Bottom_panel_334x280 | pending        | pending    | pending    | each |        |       |        |
+|     1 | Back_panel_304x46    | -              | -          | -          | each |   0.00 |  0.00 |   0.00 |
+|     1 | Bottom_panel_334x280 | -              | 2018-03-08 | 2018-03-08 | each |  52.00 |  0.00 |  52.00 |
 |     1 | GT2_belt             | pending        | pending    | pending    | each |        |       |        |
 |     1 | PSU_12VDC/30A        | pending        | pending    | pending    | each |        |       |        |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |        |       |        |
