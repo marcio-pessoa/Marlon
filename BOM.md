@@ -30,12 +30,15 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     2 | TR8                  |   272804811413 | 2017-11-19 | pending    | each |   0.00 |  0.00 |   0.00 |
 |     1 | Back_panel_304x46    | -              | -          | -          | each |   0.00 |  0.00 |   0.00 |
 |     1 | Bottom_panel_334x280 | -              | 2018-03-08 | 2018-03-08 | each |  52.00 |  0.00 |  52.00 |
+|     1 | PSU_12VDC/30A        | -              | 2015-03-28 | 2015-03-28 | each |   0.00 |  0.00 |   0.00 |
+|     4 | Adhesive_Feet        | -              | 2014-dd-dd | 2014-dd-dd | each |   0.00 |  0.00 |   0.00 |
 |     1 | GT2_belt             | pending        | pending    | pending    | each |        |       |        |
-|     1 | PSU_12VDC/30A        | pending        | pending    | pending    | each |        |       |        |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |        |       |        |
+
 
 Currency: USD
 
-IOF: 6.38%
+International IOF: 6.38%
+Domestic IOF: 0.38%
 
-Total cost: $339.46
+Total cost: $391.46

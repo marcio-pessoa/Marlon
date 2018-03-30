@@ -13,17 +13,17 @@
   - (Video) Demonstration - Create
 
 - 'TO DO':
-  - (Mechanics) Driver fan - Install
-  - (Mechanics) Back panel - Cut
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Install
-  - (Mechanics) Bottom panel - Cut
   - (Mechanics) Bottom panel - Drill
   - (Mechanics) Bottom panel - Finish
   - (Mechanics) Bottom panel - Install
+  - (Mechanics) Driver fan - Install
 
 - 'DOING':
+  - (Mechanics) Back panel - Cut
+  - (Mechanics) Bottom panel - Cut
   - (Mechanics) CoreXY - Design
   - (Mechanics) Arduino Materia 101 Assembly Manual - Read
 
