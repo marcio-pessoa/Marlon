@@ -21,7 +21,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |    20 | T-Slot_2020_Nut_M3   |   112377337972 | 2017-10-14 | 2017-12-dd | each |   5.22 |  0.32 |   5.54 |
 |     2 | Shaft_coupler        |   292335491058 | 2017-11-23 | 2018-01-26 | each |   1.25 |  0.08 |   1.33 |
 |     4 | SC8LUU               |   272351135444 | 2017-10-14 | pending    | each |  20.50 |  1.31 |  21.81 |
-|     4 | LMH8UU               |   112098366186 | 2017-10-14 | pending    | each |   5.58 |  0.36 |   5.94 |
+|     4 | LMH8UU               |   112098366186 | 2017-10-14 | 2018-04-03 | each |   5.58 |  0.36 |   5.94 |
 |    12 | SHF8                 |   222702698960 | 2017-11-05 | pending    | each |  17.76 |  1.12 |  18.88 |
 |     2 | GT2_20T_Bore         |   292316604447 | 2017-11-08 | pending    | each |   1.00 |  0.05 |   1.05 |
 |     4 | Linear_rod_400x8mm   |   152762222389 | 2017-11-15 | pending    | each |  18.88 |  1.19 |  20.07 |
@@ -34,7 +34,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Adhesive_Feet        | -              | 2014-dd-dd | 2014-dd-dd | each |   0.00 |  0.00 |   0.00 |
 |     1 | GT2_belt             | pending        | pending    | pending    | each |        |       |        |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |        |       |        |
-
+|     4 | Screw_M3x6mm         |   232313079440 | 2018-03-21 | pending    | each |        |       |        |
 
 Currency: USD
 

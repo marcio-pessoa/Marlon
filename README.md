@@ -159,9 +159,6 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
 
 [NBR 14136](Documents/1433_drawing.pdf)
 
-### Power button
-![Power button](Documents/0M743E_20131224081002290.jpg)
-
 ### Power supply
 PSU ATX Power with PS_ON
 

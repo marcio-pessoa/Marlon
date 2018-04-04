@@ -13,24 +13,27 @@
   - (Video) Demonstration - Create
 
 - 'TO DO':
+  - (Mechanics) Bottom panel - Install
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Install
-  - (Mechanics) Bottom panel - Drill
-  - (Mechanics) Bottom panel - Finish
-  - (Mechanics) Bottom panel - Install
   - (Mechanics) Driver fan - Install
 
 - 'DOING':
+  - (Mechanics) Arduino - Install
+  - (Mechanics) Bottom panel - Drill
+  - (Mechanics) Bottom panel - Finish
   - (Mechanics) Back panel - Cut
-  - (Mechanics) Bottom panel - Cut
   - (Mechanics) CoreXY - Design
-  - (Mechanics) Arduino Materia 101 Assembly Manual - Read
 
 - 'TESTING':
+  - (Mechanics) Bottom panel - Cut
   - (Mechanics) Elevator - Design
 
 - 'DONE':
+  - (Electronics) Heat sink - Install
+  - (Electronics) Drivers - Install
+  - (Electronics) RAMPS - Install
   - (Mechanics) Frame - Mount
   - (Software) RAMPS software version 1.1.0-RC8 - Read documentation
   - (Software) RAMPS software version 1.1.0-RC8 - Download
