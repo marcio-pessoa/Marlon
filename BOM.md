@@ -12,7 +12,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     1 | Display              |   272150628431 | 2016-03-08 | 2016-mm-dd | each |   9.22 |  0.59 |   9.81 |
 |     1 | Display_cable        |   272150628431 | 2016-03-08 | 2016-mm-dd | each |   0.00 |  0.00 |   0.00 |
 |     1 | PSU_12VDC/30A        | -              | 2015-03-28 | 2015-03-28 | each |   0.00 |  0.00 |   0.00 |
-|     1 | Power_connector      |   172193375231 | 2016-10-09 | 2016-mm-dd | each |   1.99 |  0.13 |   2.12 |
+|     1 | PSU_connector        |   172193375231 | 2016-10-09 | 2016-mm-dd | each |   1.99 |  0.13 |   2.12 |
 |     1 | Power_cable          | -              | 2014-mm-dd | 2014-mm-dd | each |   1.99 |  0.13 |   2.12 |
 |     1 | Display_knob         |   221939971151 | 2016-04-24 | 2016-mm-dd | each |   1.29 |  0.07 |   1.36 |
 |     1 | Power_switch         |   221989151099 | 2016-02-25 | 2016-mm-dd | each |   2.48 |  0.16 |   2.64 |
@@ -27,6 +27,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     1 | Back_panel_304x46    | -              | 2018-03-08 | 2018-03-08 | each |   0.00 |  0.00 |   0.00 |
 |     1 | Bottom_panel_334x280 | -              | 2018-03-08 | 2018-03-08 | each |  52.00 |  0.00 |  52.00 |
 |     2 | GT2_20T_Bore         |   292316604447 | 2017-11-08 | 2018-04-07 | each |   1.00 |  0.05 |   1.05 |
+|     4 | Washers_M4           |   172371032208 | 2017-08-15 | 2018-03-26 | each |   0.09 |  0.01 |   0.10 |
 |     4 | SC8LUU               |   272351135444 | 2017-10-14 | pending    | each |  20.50 |  1.31 |  21.81 |
 |    12 | SHF8                 |   222702698960 | 2017-11-05 | pending    | each |  17.76 |  1.12 |  18.88 |
 |     4 | Linear_rod_400x8mm   |   152762222389 | 2017-11-15 | pending    | each |  18.88 |  1.19 |  20.07 |
@@ -42,4 +43,4 @@ Currency: USD
 International IOF: 6.38%
 Domestic IOF: 0.38%
 
-Total cost: $393.60
+Total cost: $393.70

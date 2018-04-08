@@ -13,22 +13,23 @@
   - (Video) Demonstration - Create
 
 - 'TO DO':
-  - (Mechanics) Bottom panel - Install
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Install
+  - (Mechanics) PSU connector - Install
   - (Mechanics) Driver fan - Install
 
 - 'DOING':
-  - (Mechanics) Bottom panel - Drill
-  - (Mechanics) Bottom panel - Finish
-  - (Mechanics) Bottom panel - Adhesive covering plastic
-  - (Mechanics) PSU - Install
-  - (Mechanics) Arduino - Install
   - (Mechanics) Back panel - Cut
   - (Mechanics) CoreXY - Design
 
 - 'TESTING':
+  - (Mechanics) Bottom panel - Install
+  - (Mechanics) PSU - Install
+  - (Mechanics) Arduino - Install
+  - (Mechanics) Bottom panel - Adhesive covering plastic
+  - (Mechanics) Bottom panel - Finish
+  - (Mechanics) Bottom panel - Drill
   - (Mechanics) Bottom panel - Cut
   - (Mechanics) Elevator - Design
 
