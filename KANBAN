@@ -1,4 +1,6 @@
 - 'BACKLOG':
+  - (Electronics) PSU AC connector - Cabling
+  - (Electronics) PSU DC connector - Cabling
   - (Mechanics) Elevator - Mount
   - (Mechanics) Marlin stick (Marlin_logo.svg already downloaded) - Paste
   - (Electronics) Driver fan - How to install
@@ -16,7 +18,7 @@
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Install
-  - (Mechanics) PSU connector - Install
+  - (Mechanics) PSU AC connector - Install
   - (Mechanics) Driver fan - Install
 
 - 'DOING':
@@ -25,15 +27,15 @@
 
 - 'TESTING':
   - (Mechanics) Bottom panel - Install
+  - (Mechanics) Elevator - Design
+
+- 'DONE':
   - (Mechanics) PSU - Install
   - (Mechanics) Arduino - Install
   - (Mechanics) Bottom panel - Adhesive covering plastic
   - (Mechanics) Bottom panel - Finish
   - (Mechanics) Bottom panel - Drill
   - (Mechanics) Bottom panel - Cut
-  - (Mechanics) Elevator - Design
-
-- 'DONE':
   - (Electronics) Heat sink - Install
   - (Electronics) Drivers - Install
   - (Electronics) RAMPS - Install

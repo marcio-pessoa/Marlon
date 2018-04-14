@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# configure.sh
+# configure.sh, Marlon Mark I - 3D Printer
 #
 # Description:
 #   Automatic configuration script.
