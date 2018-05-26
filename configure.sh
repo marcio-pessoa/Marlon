@@ -9,6 +9,9 @@
 # Contributors: none
 #
 # Change log:
+# 2018-05-11
+#         Tested on: Marlin 1.1.8.
+#
 # 2017-11-15
 #         Tested on: Marlin 1.1.6.
 #         Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
