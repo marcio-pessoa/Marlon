@@ -37,6 +37,8 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Screw_M3x6mm         |   232313079440 | 2018-03-21 | 2018-06-04 | each |   0.09 |  0.01 |   0.10 |
 |       | GT2_belt             | pending        | pending    | pending    | cm   |        |       |        |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |        |       |        |
+|    10 | Screw_M5x6mm_flat    |   222418404772 | 2018-06-09 | pending    | each |   1.65 |       |        |
+|     2 | Aluminium_Hinge      |   302591989386 | 2018-01-05 | 2018-06-12 | each |   2.00 |  0.13 |   2.13 |
 
 Currency: USD
 
