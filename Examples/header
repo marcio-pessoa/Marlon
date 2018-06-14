@@ -1,7 +1,6 @@
 ; Marlon Mark I - 3D Printer
-; Header
 ;
-
+; Header
 G21  ; Millimeter Units
 G90  ; Absolute Positioning
 M149 C  ; Set Temperature Units to Celsius
@@ -9,4 +8,3 @@ M149 C  ; Set Temperature Units to Celsius
 M501  ; Restore Settings
 M115  ; Firmware Info
 M100  ; Free Memory
-
