@@ -74,7 +74,7 @@ Technical specifications:
 ![LMH8UU](Documents/LMH8UU.jpg)
 
 Technical specifications:
-- 
+-
 
 ### SHF
 ![SHF](Documents/SHF8.png)
@@ -143,8 +143,8 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
          +---+    
         /  o  \   
        /       \  
-      | []   [] | 
-      +---------+ 
+      | []   [] |
+      +---------+
         N     F   
 
 [Figure [NEMA5-15]: [NEMA 5-15](Documents/5917_drawing.pdf)]
@@ -153,7 +153,7 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
     - Padrão IEC-320
 
       .-------------.  
-     |  o    o    o  | 
+     |  o    o    o  |
       '-------------'  
         ?    T    ?    
 
@@ -215,7 +215,7 @@ Technical specifications:
     | G 5 5 4 4 4 4 4 3 3 3 3 3 2 2 2 2 5 |    44=L5  45=L4                     
     | N 3 1 9 7 5 3 1 9 7 5 3 1 9 7 5 3 V |    46=L3  47=L2                     
     | D                                   |    48=L1  49=L0    SPI:             
-    |                                     |    50=B3  51=B2     50=MISO 51=MOSI 
+    |                                     |    50=B3  51=B2     50=MISO 51=MOSI
     |     2560                            |    52=B1  53=B0     52=SCK  53=SS   
     '--.                         .--------'                                     
         \_______________________/                                               
@@ -318,7 +318,7 @@ Technical specifications:
 Stepper_drivers_heat_sink
 
 ## Stepper motor
-Stepper motor reference: 
+Stepper motor reference:
 http://reprap.org/wiki/NEMA_17_Stepper_motor
 
 ## Hot bed
@@ -362,17 +362,14 @@ http://manual.slic3r.org/advanced/command-line
 
 ## Material
 
-Comparizon table
-
- Material | 
- ---------|--------------------------------------------------------------------
- ABS      | 
- PLA      | 
-
-### ABS
+ Material | Temperature (*C) | Delay (ms)
+ ---------|------------------|-----------------
+ PLA      |                  |
+ ABS      |                  |
 
 ### PLA
 
+### ABS
 
 ---
 
