@@ -45,4 +45,4 @@ Currency: USD
 International IOF: 6.38%
 Domestic IOF: 0.38%
 
-Total cost: $393.70
+Total cost: $395.93
