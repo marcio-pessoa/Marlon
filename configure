@@ -153,7 +153,6 @@ check_return $?
 
 # Invoke xc
 echo "Starting xC (Axes Controller)..."
-xc -v
 case "$action" in
   'verify')
     xc "$action" --id marlon --verbosity=3
