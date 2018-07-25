@@ -40,9 +40,8 @@ Marlon Mark I - 3D Printer, Bill of materials
 |       | GT2_belt             | pending        | pending    | pending    | cm   |        |       |        |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |        |       |        |
 
-Currency: USD
-
-International IOF: 6.38%
+Currency: USD<br/>
+International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
 Total cost: $395.93
