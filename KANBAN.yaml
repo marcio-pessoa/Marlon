@@ -4,7 +4,7 @@
   - (Electronics) PSU DC connector - Cabling
   - (Mechanics) Driver fan - Install
   - (Mechanics) Elevator - Mount
-  - (Mechanics) Marlin stick (Marlin_logo.svg already downloaded) - Paste
+  - (Mechanics) Marlin logo (Documents/Marlin_logo.svg) - Engrave
   - (Electronics) Driver fan - How to install
   - (Electronics) Driver fan - Install
   - (Electronics) Driver fan - Build fan driver
@@ -19,6 +19,7 @@
 - 'TO DO':
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
+  - (Mechanics) Back panel - Fix T-slot_90_corner
   - (Mechanics) Back panel - Install
   - (Mechanics) PSU AC connector - Install
 
@@ -28,9 +29,9 @@
 
 - 'TESTING':
   - (Mechanics) Bottom panel - Install
-  - (Mechanics) Elevator - Design
 
 - 'DONE':
+  - (Mechanics) Elevator - Design
   - (Mechanics) PSU - Install
   - (Mechanics) Arduino - Install
   - (Mechanics) Bottom panel - Adhesive covering plastic
