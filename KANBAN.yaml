@@ -1,7 +1,5 @@
 ---
 - 'BACKLOG':
-  - (Electronics) PSU AC connector - Cabling
-  - (Electronics) PSU DC connector - Cabling
   - (Mechanics) Driver fan - Install
   - (Mechanics) Elevator - Mount
   - (Mechanics) Marlin logo (Documents/Marlin_logo.svg) - Engrave
@@ -17,14 +15,16 @@
   - (Video) Demonstration - Create
 
 - 'TO DO':
-  - (Mechanics) Back panel - Cut
-  - (Mechanics) Back panel - Finish
-  - (Mechanics) Back panel - Fix T-slot_90_corner
-  - (Mechanics) Back panel - Install
-  - (Mechanics) PSU AC connector - Install
+  - (Electronics) PSU AC connector - Cabling
+  - (Electronics) PSU DC connector - Cabling
 
 - 'DOING':
+  - (Mechanics) Back panel - Cut
   - (Mechanics) Back panel - Drill
+  - (Mechanics) Back panel - Finish
+  - (Mechanics) Back panel - Fix T-slot_90_corner
+  - (Mechanics) PSU AC connector - Install
+  - (Mechanics) Back panel - Install
   - (Mechanics) CoreXY - Design
 
 - 'TESTING':
