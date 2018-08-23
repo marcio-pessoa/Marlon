@@ -1,6 +1,10 @@
 # CHANGELOG
 Marlon Mark I - 3D Printer, Change log
 
+## [1.1.9] - 2018-08-21
+### Tested
+- Just tested new Marlin firmware version.
+
 ## [1.1.6] - 2017-11-15
 ### Changed
 - Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed).
