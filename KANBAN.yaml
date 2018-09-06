@@ -17,18 +17,24 @@
 - 'TO DO':
   - (Electronics) PSU AC connector - Cabling
   - (Electronics) PSU DC connector - Cabling
+  - (Electronics) MSTBV - Convert from MSTBVA
 
 - 'DOING':
   - (Mechanics) Back panel - Cut
   - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Fix T-slot_90_corner
+  - (Mechanics) Bottom panel - Drill
+  - (Mechanics) Bottom panel - Cut
+  - (Mechanics) Bottom panel - Install
+  - (Mechanics) Back panel - Install
   - (Mechanics) PSU AC connector - Install
   - (Mechanics) Back panel - Install
   - (Mechanics) CoreXY - Design
 
 - 'TESTING':
-  - (Mechanics) Bottom panel - Install
+  - (Mechanics) Bottom panel - Design
+  - (Mechanics) Back panel - Design
 
 - 'DONE':
   - (Mechanics) Elevator - Design

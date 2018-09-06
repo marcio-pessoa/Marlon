@@ -6,14 +6,17 @@ Marlon Mark I - 3D Printer, Bill of materials
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
 |     4 | Linear_rod_8x400mm   |   152762222389 | 2017-11-15 | pending    | each |  18.88 |  1.19 |  20.07 |
 |     4 | Linear_rod_8x300mm   |   152762222389 | 2017-11-15 | pending    | each |  13.58 |  0.87 |  14.45 |
-|     ? | GT2_belt             | pending        | pending    | pending    | cm   |      - |     - |      - |
-|     4 | Stepper_motor        | pending        | pending    | pending    | each |      - |     - |      - |
+|     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
+|     4 | Stepper_motor        | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
+|     1 | MSTBV 2,5/ 4-G       | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
+|     1 |                      | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 
 ## Delivering
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
 |     2 | Threaded_rod_8x400mm |   272804811413 | 2018-08-24 | pending    | each |  13.43 |  0.86 |  14.29 |
 |     2 | TR8                  |   272804811413 | 2018-08-24 | pending    | each |   0.00 |  0.00 |   0.00 |
+|    50 | Screw_M8x8mm_flat    |   223120558333 | 2018-08-31 | pending    | each |   2.66 |  0.17 |   2.83 |
 
 ## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
@@ -53,4 +56,4 @@ Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $395.93
+Total cost: $401.67
