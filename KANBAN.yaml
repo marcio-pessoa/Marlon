@@ -20,12 +20,8 @@
   - (Electronics) MSTBV - Convert from MSTBVA
 
 - 'DOING':
-  - (Mechanics) Back panel - Cut
-  - (Mechanics) Back panel - Drill
   - (Mechanics) Back panel - Finish
   - (Mechanics) Back panel - Fix T-slot_90_corner
-  - (Mechanics) Bottom panel - Drill
-  - (Mechanics) Bottom panel - Cut
   - (Mechanics) Bottom panel - Install
   - (Mechanics) Back panel - Install
   - (Mechanics) PSU AC connector - Install
@@ -33,17 +29,19 @@
   - (Mechanics) CoreXY - Design
 
 - 'TESTING':
-  - (Mechanics) Bottom panel - Design
-  - (Mechanics) Back panel - Design
+  - (Mechanics) Back panel - Cut
+  - (Mechanics) Back panel - Drill
+  - (Mechanics) Bottom panel - Drill
+  - (Mechanics) Bottom panel - Cut
 
 - 'DONE':
+  - (Mechanics) Bottom panel - Design
+  - (Mechanics) Back panel - Design
   - (Mechanics) Elevator - Design
   - (Mechanics) PSU - Install
   - (Mechanics) Arduino - Install
   - (Mechanics) Bottom panel - Adhesive covering plastic
   - (Mechanics) Bottom panel - Finish
-  - (Mechanics) Bottom panel - Drill
-  - (Mechanics) Bottom panel - Cut
   - (Electronics) Heat sink - Install
   - (Electronics) Drivers - Install
   - (Electronics) RAMPS - Install
