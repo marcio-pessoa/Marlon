@@ -308,8 +308,14 @@ Technical specifications:
 - License: GPL
 
 ## Display
+Technical specifications:
+- Model: [Full Graphic Smart Controller]
+- Resolution: 128 x 64 pixels
+- Technology: LCD
+- License: GPL
+- Author: RepRapDiscount.com
 
-Display Cable
+### Display Cable
 
 ## Stepper drivers
 Technical specifications:
@@ -381,3 +387,4 @@ http://manual.slic3r.org/advanced/command-line
 [Marlin G-code]: http://marlinfw.org/meta/gcode/
 [Marlin Configuring]: http://marlinfw.org/docs/configuration/configuration.html
 [Marlin web page]: https://github.com/MarlinFirmware/Marlin
+[Full Graphic Smart Controller]: https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller

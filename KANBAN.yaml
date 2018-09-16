@@ -1,40 +1,40 @@
 ---
 - 'BACKLOG':
-  - (Mechanics) Driver fan - Install
   - (Mechanics) Elevator - Mount
   - (Mechanics) Marlin logo (Documents/Marlin_logo.svg) - Engrave
-  - (Electronics) Driver fan - How to install
-  - (Electronics) Driver fan - Install
-  - (Electronics) Driver fan - Build fan driver
-  - (Software) Driver fan - How to control
-  - (Software) Driver fan - How to sense
-  - (Software) Driver fan - Add start fan and stop fan commands to template
+  - (Mechanics) Fan driver - Install
   - (Software) Slic3r - Read documentation
   - (Software) Slic3r - Install
   - (Software) Slic3r - Configure
   - (Video) Demonstration - Create
 
 - 'TO DO':
-  - (Electronics) PSU AC connector - Cabling
-  - (Electronics) PSU DC connector - Cabling
-  - (Electronics) MSTBV - Convert from MSTBVA
+  - (Electronics) Fan driver - Install
+  - (Electronics) Fan driver - Build fan driver
+  - (Software) Fan driver - How to control
+  - (Software) Fan driver - How to sense
+  - (Software) Fan driver - Add start fan and stop fan commands to template
 
 - 'DOING':
-  - (Mechanics) Back panel - Finish
-  - (Mechanics) Back panel - Fix T-slot_90_corner
-  - (Mechanics) Bottom panel - Install
-  - (Mechanics) Back panel - Install
-  - (Mechanics) PSU AC connector - Install
-  - (Mechanics) Back panel - Install
   - (Mechanics) CoreXY - Design
+  - (Electronics) Fan driver - How to install
 
 - 'TESTING':
-  - (Mechanics) Back panel - Cut
-  - (Mechanics) Back panel - Drill
-  - (Mechanics) Bottom panel - Drill
-  - (Mechanics) Bottom panel - Cut
+  - (Electronics) PSU DC connector - Wiring
+  - (Electronics) PSU AC connector - Wiring
+  - (Electronics) MSTBV - Convert from MSTBVA
 
 - 'DONE':
+  - (Mechanics) PSU AC connector - Install
+  - (Mechanics) Back panel - Install
+  - (Mechanics) Back panel - Install
+  - (Mechanics) Back panel - Fix T-slot_90_corner
+  - (Mechanics) Back panel - Finish
+  - (Mechanics) Back panel - Cut
+  - (Mechanics) Back panel - Drill
+  - (Mechanics) Bottom panel - Install
+  - (Mechanics) Bottom panel - Drill
+  - (Mechanics) Bottom panel - Cut
   - (Mechanics) Bottom panel - Design
   - (Mechanics) Back panel - Design
   - (Mechanics) Elevator - Design

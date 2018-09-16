@@ -9,6 +9,5 @@
 ;         Experimental version.
 
 M502  ; Factory Reset
-
 M500  ; Save Settings
 M503  ; Report Settings

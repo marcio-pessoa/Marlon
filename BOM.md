@@ -8,7 +8,6 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Linear_rod_8x300mm   |   152762222389 | 2017-11-15 | pending    | each |  13.58 |  0.87 |  14.45 |
 |     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
 |     4 | Stepper_motor        | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
-|     1 | MSTBV 2,5/ 4-G       | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 |     1 |                      | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 
 ## Delivering
@@ -16,7 +15,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
 |     2 | Threaded_rod_8x400mm |   272804811413 | 2018-08-24 | pending    | each |  13.43 |  0.86 |  14.29 |
 |     2 | TR8                  |   272804811413 | 2018-08-24 | pending    | each |   0.00 |  0.00 |   0.00 |
-|    50 | Screw_M8x8mm_flat    |   223120558333 | 2018-08-31 | pending    | each |   2.66 |  0.17 |   2.83 |
+|    50 | Screw_M4x8mm_flat    |   223120558333 | 2018-08-31 | pending    | each |   2.66 |  0.17 |   2.83 |
 
 ## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
@@ -51,9 +50,10 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     2 | Aluminium_Hinge      |   302591989386 | 2018-01-05 | 2018-06-12 | each |   2.00 |  0.13 |   2.13 |
 |     4 | Screw_M3x6mm         |   232313079440 | 2018-03-21 | 2018-06-04 | each |   0.09 |  0.01 |   0.10 |
 |    10 | Screw_M3x10mm_flat   |   222418404772 | 2018-06-24 | 2018-07-23 | each |   1.35 |  0.09 |   1.47 |
+|     3 | T-slot_90_corner     |   131977551173 | 2016-11-04 | 2016-mm-dd | each |   0.75 |  0.05 |   0.80 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $401.67
+Total cost: $402.47
