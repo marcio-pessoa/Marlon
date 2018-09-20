@@ -155,12 +155,22 @@ Olhando o plug macho da tomada com os pinos voltados para sua face:
       .-------------.  
      |  o    o    o  |
       '-------------'  
-        ?    T    ?    
+        ?    T    ?
 
 [NBR 14136](Documents/1433_drawing.pdf)
 
 ### Power supply
-PSU ATX Power with PS_ON
+Technical specifications:
+- Model: PMC-12V150W1BA
+- Technology: Switching power supply
+- Input:
+  - Voltage: 100 ~ 240 VAC
+  - Amperage: 2 A
+  - Frequency: 50 ~ 60 Hz
+  - Power: 150 W
+- Output 1: 
+  - Voltage: 12 VDC
+  - Amperage: 12.6 A
 
 ## Arduino
 Technical specifications:
@@ -338,6 +348,14 @@ Technical specifications:
 - Type: Optical
 - Model: [TCST2103](Documents/TCST2103.pdf)
 
+## Fan
+Technical specifications:
+- Type: Brushless
+- Feature: Noiseless
+- Size: 50 x 50 x 10 mm
+- Voltage: 12 VDC
+- Amperage: 0.12 A
+
 # Software
 
 ## Marlin
@@ -358,6 +376,10 @@ Technical specifications:
 
 ### G-code
 [Marlin G-code]
+
+#### Fan control
+M106: On
+M107: Off
 
 ### Calibration
 

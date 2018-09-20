@@ -8,3 +8,5 @@ M149 C  ; Set Temperature Units to Celsius
 M501  ; Restore Settings
 M115  ; Firmware Info
 M100  ; Free Memory
+
+M106  ; Turn fan on

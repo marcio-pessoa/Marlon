@@ -1,30 +1,29 @@
 ---
 - 'BACKLOG':
-  - (Mechanics) Elevator - Mount
   - (Mechanics) Marlin logo (Documents/Marlin_logo.svg) - Engrave
-  - (Mechanics) Fan driver - Install
+  - (Mechanics) Elevator - Cut linear rods
+  - (Mechanics) Elevator - Mount
   - (Software) Slic3r - Read documentation
   - (Software) Slic3r - Install
   - (Software) Slic3r - Configure
   - (Video) Demonstration - Create
 
 - 'TO DO':
-  - (Electronics) Fan driver - Install
-  - (Electronics) Fan driver - Build fan driver
-  - (Software) Fan driver - How to control
-  - (Software) Fan driver - How to sense
-  - (Software) Fan driver - Add start fan and stop fan commands to template
+  - (Mechanics) Fan - Install
 
 - 'DOING':
   - (Mechanics) CoreXY - Design
-  - (Electronics) Fan driver - How to install
 
 - 'TESTING':
+  - (Software) Fan - Add start fan and stop fan commands to template
+
+- 'DONE':
+  - (Electronics) Fan - How to install
+  - (Electronics) Fan - Build technical specifications (what size)
+  - (Software) Fan - How to control (M106 On, M107 Off)
   - (Electronics) PSU DC connector - Wiring
   - (Electronics) PSU AC connector - Wiring
   - (Electronics) MSTBV - Convert from MSTBVA
-
-- 'DONE':
   - (Mechanics) PSU AC connector - Install
   - (Mechanics) Back panel - Install
   - (Mechanics) Back panel - Install

@@ -1,3 +1,4 @@
 ; Footer
 G28 X Y  ; Home x and y axes
 M100  ; Free Memory
+M107  ; Turn fan off
