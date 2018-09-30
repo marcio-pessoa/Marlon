@@ -14,8 +14,6 @@ Marlon Mark I - 3D Printer, Bill of materials
 ## Delivering
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-|     2 | Threaded_rod_8x400mm |   272804811413 | 2018-08-24 | pending    | each |  13.43 |  0.86 |  14.29 |
-|     2 | TR8                  |   272804811413 | 2018-08-24 | pending    | each |   0.00 |  0.00 |   0.00 |
 |    50 | Screw_M4x8mm_flat    |   223120558333 | 2018-08-31 | pending    | each |   2.66 |  0.17 |   2.83 |
 
 ## Purchased
@@ -52,6 +50,8 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Screw_M3x6mm         |   232313079440 | 2018-03-21 | 2018-06-04 | each |   0.09 |  0.01 |   0.10 |
 |    10 | Screw_M3x10mm_flat   |   222418404772 | 2018-06-24 | 2018-07-23 | each |   1.35 |  0.09 |   1.47 |
 |     3 | T-slot_90_corner     |   131977551173 | 2016-11-04 | 2016-mm-dd | each |   0.75 |  0.05 |   0.80 |
+|     2 | Threaded_rod_8x400mm |   272804811413 | 2018-08-24 | 2018-09-27 | each |  13.43 |  0.86 |  14.29 |
+|     2 | TR8                  |   272804811413 | 2018-08-24 | 2018-09-27 | each |   0.00 |  0.00 |   0.00 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
