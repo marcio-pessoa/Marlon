@@ -19,8 +19,9 @@
   - (Software) Fan - Add start fan and stop fan commands to template
 
 - 'DONE':
+  - (Electronics) Stepper motor - Define technical specifications
   - (Electronics) Fan - How to install
-  - (Electronics) Fan - Build technical specifications (what size)
+  - (Electronics) Fan - Define technical specifications (what size)
   - (Software) Fan - How to control (M106 On, M107 Off)
   - (Electronics) PSU DC connector - Wiring
   - (Electronics) PSU AC connector - Wiring

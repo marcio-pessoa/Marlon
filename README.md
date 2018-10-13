@@ -74,7 +74,6 @@ Technical specifications:
 ![LMH8UU](Documents/LMH8UU.jpg)
 
 Technical specifications:
--
 
 ### SHF
 ![SHF](Documents/SHF8.png)

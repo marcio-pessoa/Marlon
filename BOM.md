@@ -4,17 +4,19 @@ Marlon Mark I - 3D Printer, Bill of materials
 ## To buy
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-|     4 | Linear_rod_8x400mm   |   152762222389 | 2017-11-15 | pending    | each |  18.88 |  1.19 |  20.07 |
-|     4 | Linear_rod_8x300mm   |   152762222389 | 2017-11-15 | pending    | each |  13.58 |  0.87 |  14.45 |
-|     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
-|     4 | Stepper_motor        | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
+|     2 | Stepper_17HM08-1204S | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 |     2 | Fan_50x50x10         | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
-|     1 |                      | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
+|     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
+
+|     4 | Linear_rod_8x300mm   |   152762222389 | 2017-11-15 | pending    | each |  13.58 |  0.87 |  14.45 |
+no tom201818
 
 ## Delivering
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
+|     2 | Stepper_2BYGHM809    |   151226573075 | 2018-10-08 | pending    | each |  32.96 |  2.10 |  35.06 |
 |    50 | Screw_M4x8mm_flat    |   223120558333 | 2018-08-31 | pending    | each |   2.66 |  0.17 |   2.83 |
+|     4 | Linear_rod_8x400mm   |   292628042096 | 2018-09-30 | pending    | each |  17.09 |  1.08 |  18.17 |
 
 ## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
@@ -57,4 +59,4 @@ Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $402.47
+Total cost: $435.63
