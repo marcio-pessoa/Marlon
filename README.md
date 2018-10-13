@@ -336,6 +336,32 @@ Stepper_drivers_heat_sink
 Stepper motor reference:
 http://reprap.org/wiki/NEMA_17_Stepper_motor
 
+### Elevator
+
+### CoreXY
+Technical specifications:
+- Model: 42BYGHM809
+- Holding Torque: 48 N·cm
+- Rated voltage: 3.06 V
+- Shaft: Ø 5 mm no flat
+- Step angle: 0.9 degree
+- Motor length: 48 mm
+- Rated current: 1.7 A/phase
+- Inductance: 2.8 mH
+- Frame Size: NEMA17
+- Step Angle:                    0.9 degree
+- Wires: 4
+- Weight: 0.34 kg
+- Length: 48 mm
+- Motor shaft : 5mm
+- Front shaft length: 20mm
+Voltage:                         2.8V
+Resistance:                   1.65Ohm/phase
+Inductance:                   4.0mH/phase
+Holding torque:             4200g.cm   60oz-in    
+Rotor inertia:                 68g-cm2
+Detent torque:               0.22g-cm
+
 ## Hot bed
 
 ## Sensors
