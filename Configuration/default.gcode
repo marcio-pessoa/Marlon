@@ -1,7 +1,7 @@
 ; default.gcode, Marlon Mark I - 3D Printer, G-code default configuration file
 ; This program set default configurations to Marlon 3D Printer.
 ; 
-; Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
+; Author: Márcio Pessoa <marcio.pessoa@gmail.com>
 ; Contributors: none
 ; 
 ; Change log:

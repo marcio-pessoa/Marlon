@@ -3,7 +3,7 @@
 ; Project: Marlon Mark I - 3D Printer
 ; Description: This program is used to laser cut Marlon Mark I Back pannel.
 ; 
-; Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
+; Author: Márcio Pessoa <marcio.pessoa@gmail.com>
 ; Contributors: none
 ; 
 ; Change log:
