@@ -10,7 +10,7 @@ Marlon is a Marlin firmware based 3D Printer.
 # Mechanics
 
 ## Frame
-![T-Slot 2020-6](Documents/T-Slot_2020-6.png)
+![T-Slot 2020-6](Documents/Pictures/T-Slot_2020-6.png)
 
 Technical specifications:
 - Frame type: T-Slot 2020-6
@@ -19,7 +19,7 @@ Technical specifications:
 - Depth: 287 mm
 
 ### Hinges
-![T-Slot 2020 Hinge](Documents/s-l1600.jpg)
+![T-Slot 2020 Hinge](Documents/Pictures/s-l1600.jpg)
 
 T-Slot 2020 Hinge
 
@@ -38,14 +38,14 @@ Technical specifications:
 - Material: Nickel Plated
 
 ## CoreXY
-![CoreXY](Documents/CoreXY.png)
+![CoreXY](Documents/Pictures/CoreXY.png)
 
 The [CoreXY] is a open source two-axis linear motion implementation developed at MIT Media Lab.
 
 Overall, it delivers the same benefit of the H-bot, a light moving platform, by keeping both motors fixed to the frame. Furthermore, by crossing the belt, the unwanted torque vectors of H-bot model are eliminated.
 
 ### SC8LUU
-![SC8LUU](Documents/SC8LUU.jpg)
+![SC8LUU](Documents/Pictures/SC8LUU.jpg)
 
 Technical specifications:
 
@@ -71,12 +71,12 @@ Technical specifications:
 ## Elevator (z axis)
 
 ### LMH8UU
-![LMH8UU](Documents/LMH8UU.jpg)
+![LMH8UU](Documents/Pictures/LMH8UU.jpg)
 
 Technical specifications:
 
 ### SHF
-![SHF](Documents/SHF8.png)
+![SHF](Documents/Pictures/SHF8.png)
 
 Technical specifications:
 
@@ -306,7 +306,7 @@ Diagram by: http://busyducks.com/ascii-art-arduinos
  69 |  15 | -         | -         | -                                        
 
 ## RAMPS
-![RAMPS 1.4](Documents/Arduinomega1-4connectors.png)
+![RAMPS 1.4](Documents/Pictures/Arduinomega1-4connectors.png)
 
 > RepRap Arduino Mega Pololu Shield, or RAMPS for short. It is designed to fit the entire electronics needed for a RepRap in one small package for low cost. RAMPS interfaces an Arduino Mega with the powerful Arduino MEGA platform and has plenty room for expansion. The modular design includes plug in stepper drivers and extruder control electronics on an Arduino MEGA shield for easy service, part replacement, upgrade-ability and expansion. Additionally, a number of Arduino expansion boards can be added to the system as long as the main RAMPS board is kept to the top of the stack.
 >
@@ -367,7 +367,7 @@ Detent torque:               0.22g-cm
 ## Sensors
 
 ### Endstop sensor
-![TCST2103](Documents/TCST2103.png)
+![TCST2103](Documents/Pictures/TCST2103.png)
 
 Technical specifications:
 - Type: Optical
