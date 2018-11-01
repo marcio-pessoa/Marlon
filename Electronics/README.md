@@ -1,5 +1,4 @@
 # Marlon Mark I - 3D Printer
-Marlon is a Marlin firmware based 3D Printer.
 
 [Main page]
 
@@ -23,33 +22,9 @@ https://www.stayonline.com/5-15-c13-10-amp-power-cords.aspx
         +----------+  
           F      N    
 
-IEC 60320 C13
-
 Technical specifications:
-- Padrão: IEC-320
-
-#### Power cable
-Olhando o plug macho da tomada com os pinos voltados para sua face:
-
-           T      
-         +---+    
-        /  o  \   
-       /       \  
-      | []   [] |
-      +---------+
-        N     F   
-
-[Figure [NEMA5-15]: [NEMA 5-15](../Documents/5917_drawing.pdf)]
-
-[#Power_cable]
-    - Padrão IEC-320
-
-      .-------------.  
-     |  o    o    o  |
-      '-------------'  
-        ?    T    ?
-
-[NBR 14136](../Documents/1433_drawing.pdf)
+- Standard: IEC 60320
+- Coupler: C13
 
 #### Power supply
 Technical specifications:
@@ -221,15 +196,35 @@ Technical specifications:
 Technical specifications:
 - Model: A4988
 
-Stepper_drivers_heat_sink
+Each driver has and heat sink to 
+
+RAMPS has 3 jumpers to configure each axes resolution.
+That can be set to configure the motor microstepping.
+
+#### Resolution configuration
+
+##### Pololu A4988
+ M0   | M1   | M2   | Microstep resolution
+------|------|------|-----------------------
+ Low  | Low  | Low  | Full step
+ High | Low  | Low  | Half step
+ Low  | High | Low  | Quarter step
+ High | High | Low  | Eighth step
+ High | High | High | Sixteenth step
+
+##### Pololu DRV8825
+ M0   | M1   | M2   | Microstep resolution
+------|------|------|-----------------------
+ Low  | Low  | Low  | Full step
+ High | Low  | Low  | Half step
+ Low  | High | Low  | 1/4 step
+ High | High | Low  | 1/8 step
+ Low  | Low  | High | 1/16 step
+ High | Low  | High | 1/32 step
+ Low  | High | High | 1/32 step
+ High | High | High | 1/32 step
 
 ### Stepper motor
-Stepper motor reference:
-http://reprap.org/wiki/NEMA_17_Stepper_motor
-
-#### Elevator
-
-#### CoreXY
 Technical specifications:
 - Model: 42BYGHM809
 - Holding Torque: 48 N·cm
@@ -246,25 +241,28 @@ Technical specifications:
 - Length: 48 mm
 - Motor shaft : 5mm
 - Front shaft length: 20mm
-Voltage:                         2.8V
-Resistance:                   1.65Ohm/phase
-Inductance:                   4.0mH/phase
-Holding torque:             4200g.cm   60oz-in    
-Rotor inertia:                 68g-cm2
-Detent torque:               0.22g-cm
+
+<!---
+- Voltage: 2.8V
+- Resistance: 1.65Ohm/phase
+- Inductance: 4.0mH/phase
+- Holding torque: 4200g.cm 60oz-in
+- Rotor inertia: 68g-cm2
+- Detent torque: 0.22g-cm
+--->
+
+Stepper motor [reference](http://reprap.org/wiki/NEMA_17_Stepper_motor).
 
 ### Hot bed
 
-### Sensors
-
-#### Endstop sensor
+### Endstop sensor
 ![TCST2103](Pictures/TCST2103.png)
 
 Technical specifications:
 - Type: Optical
 - Model: [TCST2103](../Documents/TCST2103.pdf)
 
-### Fan
+### Fans
 Technical specifications:
 - Type: Brushless
 - Feature: Noiseless
@@ -276,7 +274,7 @@ Technical specifications:
 
 ---
 
+[Main page]: ../README.md
 [RAMPS]: http://reprap.org/wiki/RAMPS
 [Arduino Mega 2560]: https://store.arduino.cc/usa/arduino-mega-2560-rev3
 [Full Graphic Smart Controller]: https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
-[Main page]: ../README.md
