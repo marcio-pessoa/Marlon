@@ -4,6 +4,8 @@
 
 Marlon is a Marlin firmware based 3D Printer. It uses RepRap concept with RAMPS.
 
+![Marlon](Documents/Pictures/marlon.png)
+
 <!---
 Work area:
 
