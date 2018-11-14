@@ -12,6 +12,9 @@ Work area:
 Width: ??? mm
 Height: ??? mm
 Depth: ??? mm
+
+## Videos
+Watch this projects videos on [YouTube Playlist].
 --->
 
 ## Changes
@@ -38,8 +41,5 @@ A lot of softwares can be used to draw 3D objects, slice, convert to G-code and 
 
 ## BOM - Bill of materials
 If you want to build your own, take a look at [Bill of materials](BOM.md).
-
-## Project Kanban
-This project is always under enhancements. I use [Kanban](KANBAN.md) to control project evolution.
 
 ---
