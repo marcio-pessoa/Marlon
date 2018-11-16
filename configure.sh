@@ -9,6 +9,10 @@
 # Contributors: none
 #
 # Change log:
+# 2018-11-15
+#         Tested on: Marlin 1.1.9.
+#         Enable: All endstop sensors.
+#
 # 2018-05-11
 #         Tested on: Marlin 1.1.8.
 #
@@ -95,6 +99,13 @@ get_updates $FILE
 
 echo "Applying customization to:"
 echo "    $FILE..."
+
+# Enable: Memory Monitoring
+echo "        Enabling all endstop sensors... \c"
+sed -i -e 's/\/\/\#define USE_XMAX_PLUG/\#define USE_XMAX_PLUG/' "$FILE"
+sed -i -e 's/\/\/\#define USE_YMAX_PLUG/\#define USE_YMAX_PLUG/' "$FILE"
+sed -i -e 's/\/\/\#define USE_ZMAX_PLUG/\#define USE_ZMAX_PLUG/' "$FILE"
+check_return $?
 
 # Enable: Memory Monitoring
 echo "        Enabling Memory Monitoring... \c"
