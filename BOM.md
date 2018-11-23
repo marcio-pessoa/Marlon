@@ -1,20 +1,6 @@
 # BOM
 Marlon Mark I - 3D Printer, Bill of materials
 
-## To buy
-| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
-|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-|     2 | Stepper_2BYGHM809    |   151226573075 | 2018-10-08 | pending    | each |  32.96 |  2.10 |  35.06 |
-|     2 | Fan_50x50x10         | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
-|     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
-
-no tom201818
-
-## Delivering
-| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
-|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-|     4 | Linear_rod_8x330mm   |   282779129630 | 2018-10-12 | pending    | each |   7.89 |       |        |
-
 ## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
@@ -54,6 +40,10 @@ no tom201818
 |    50 | Screw_M4x8mm_flat    |   223120558333 | 2018-08-31 | 2018-10-09 | each |   2.66 |  0.17 |   2.83 |
 |     2 | Stepper_2BYGHM809    |   151226573075 | 2018-10-08 | 2018-10-30 | each |  32.96 |  2.10 |  35.06 |
 |     4 | Linear_rod_8x400mm   |   292628042096 | 2018-09-30 | 2018-11-09 | each |  17.09 |  1.08 |  18.17 |
+|     4 | Linear_rod_8x330mm   |   282779129630 | 2018-10-12 | pending    | each |   7.89 |       |        |
+|     2 | Stepper_2BYGHM809    |   151226573075 | 2018-10-08 | pending    | each |  32.96 |  2.10 |  35.06 |
+|     2 | Fan_50x50x10         | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
+|     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
