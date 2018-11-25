@@ -26,7 +26,7 @@
 #
 # 2017-11-11
 #         Tested on: Marlin 1.1.6.
-#         Set: Printer name to "Marlon".
+#         Set: Printer name.
 #         Set: Who made the changes.
 #
 # 2017-10-27
@@ -60,7 +60,7 @@
 # 2017-02-22
 #         Enable: Full Graphic Smart Controller.
 #         Enable: SD Card support.
-#         Set: Printer name to "Marlin".
+#         Set: Printer name.
 #
 # 2016-01-16
 #         Project definition.
@@ -152,7 +152,7 @@ echo "        Setting Thermistor minimum temperature to 0... \c"
 sed -i -e 's/\#define HEATER_0_MINTEMP 5/\#define HEATER_0_MINTEMP 0/' "$FILE"
 check_return $?
 
-# Set: Printer name to "Marlon"
+# Set: Printer name
 echo "        Setting Printer name... \c"
 sed -i -e 's/\/\/#define CUSTOM_MACHINE_NAME \"3D Printer\"/\#define CUSTOM_MACHINE_NAME \"Marlon\"/' "$FILE"
 check_return $?
