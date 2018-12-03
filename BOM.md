@@ -42,6 +42,7 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | Linear_rod_8x400mm   |   292628042096 | 2018-09-30 | 2018-11-09 | each |  17.09 |  1.08 |  18.17 |
 |     4 | Linear_rod_8x330mm   |   282779129630 | 2018-10-12 | pending    | each |   7.89 |       |        |
 |     2 | Stepper_2BYGHM809    |   151226573075 | 2018-10-08 | pending    | each |  32.96 |  2.10 |  35.06 |
+|     4 | SK8                  |   232670339051 | 2018-11-27 | pending    | each |   4.49 |       |        |
 |     2 | Fan_50x50x10         | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 |     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
 
