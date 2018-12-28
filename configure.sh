@@ -83,10 +83,10 @@ check_return() {
 get_updates() {
   file=$1
   echo "Restoring original state to:"
-  echo "    $file... \c"
+  echo "    $file... \\c"
   git checkout -- "$file"  # Restore original file
   check_return $?
-  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \c"
+  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \\c"
   git pull  # Get updates from Github
 }
 
@@ -101,64 +101,64 @@ echo "Applying customization to:"
 echo "    $FILE..."
 
 # Enable: Memory Monitoring
-echo "        Enabling all endstop sensors... \c"
+echo "        Enabling all endstop sensors... \\c"
 sed -i -e 's/\/\/\#define USE_XMAX_PLUG/\#define USE_XMAX_PLUG/' "$FILE"
 sed -i -e 's/\/\/\#define USE_YMAX_PLUG/\#define USE_YMAX_PLUG/' "$FILE"
 sed -i -e 's/\/\/\#define USE_ZMAX_PLUG/\#define USE_ZMAX_PLUG/' "$FILE"
 check_return $?
 
 # Enable: Memory Monitoring
-echo "        Enabling Memory Monitoring... \c"
+echo "        Enabling Memory Monitoring... \\c"
 sed -i -e 's/\/\/\#define M100_FREE_MEMORY_WATCHER/\#define M100_FREE_MEMORY_WATCHER/' "$FILE"
 check_return $?
 
 # Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
-echo "        Setting Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)... \c"
+echo "        Setting Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)... \\c"
 sed -i -e 's/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/' "$FILE"
 check_return $?
 
 # Enable: Print Counter
-echo "        Enabling Print Counter... \c"
+echo "        Enabling Print Counter... \\c"
 sed -i -e 's/\/\/\#define PRINTCOUNTER/\#define PRINTCOUNTER/' "$FILE"
 check_return $?
 
 # Enable: EEPROM
-echo "        Enabling EEPROM... \c"
+echo "        Enabling EEPROM... \\c"
 sed -i -e 's/\/\/\#define EEPROM_SETTINGS/\#define EEPROM_SETTINGS/' "$FILE"
 check_return $?
 
 # Enable: Speaker
-echo "        Enabling Speaker... \c"
+echo "        Enabling Speaker... \\c"
 sed -i -e 's/\/\/\#define SPEAKER/\#define SPEAKER/' "$FILE"
 check_return $?
 
 # Enable: CoreXY
-echo "        Enabling CoreXY... \c"
+echo "        Enabling CoreXY... \\c"
 sed -i -e 's/\/\/\#define COREXY/\#define COREXY/' "$FILE"
 check_return $?
 
 # Enable: Full Graphic Smart Controller
-echo "        Enabling Full Graphic Smart Controller... \c"
+echo "        Enabling Full Graphic Smart Controller... \\c"
 sed -i -e 's/\/\/\#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER/\#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER/' "$FILE"
 check_return $?
 
 # Enable: SD Card support
-echo "        Enabling SD Card support... \c"
+echo "        Enabling SD Card support... \\c"
 sed -i -e 's/\/\/\#define SDSUPPORT/\#define SDSUPPORT/' "$FILE"
 check_return $?
 
 # Set: Thermistor minimum temperature to 0
-echo "        Setting Thermistor minimum temperature to 0... \c"
+echo "        Setting Thermistor minimum temperature to 0... \\c"
 sed -i -e 's/\#define HEATER_0_MINTEMP 5/\#define HEATER_0_MINTEMP 0/' "$FILE"
 check_return $?
 
 # Set: Printer name
-echo "        Setting Printer name... \c"
+echo "        Setting Printer name... \\c"
 sed -i -e 's/\/\/#define CUSTOM_MACHINE_NAME \"3D Printer\"/\#define CUSTOM_MACHINE_NAME \"Marlon\"/' "$FILE"
 check_return $?
 
 # Set: Who made the changes
-echo "        Setting Who made the changes... \c"
+echo "        Setting Who made the changes... \\c"
 sed -i -e 's/#define STRING_CONFIG_H_AUTHOR \"(none, default config)\"/\#define STRING_CONFIG_H_AUTHOR \"Marcio Pessoa\"/' "$FILE"
 check_return $?
 
