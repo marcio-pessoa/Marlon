@@ -9,6 +9,10 @@
 # Contributors: none
 #
 # Change log:
+# 2018-12-28
+#         Tested on: Marlin 1.1.9.
+#         Set: UUID.
+#
 # 2018-11-15
 #         Tested on: Marlin 1.1.9.
 #         Enable: All endstop sensors.
