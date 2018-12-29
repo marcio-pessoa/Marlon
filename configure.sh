@@ -112,11 +112,6 @@ echo "        Enabling Memory Monitoring... \\c"
 sed -i -e 's/\/\/\#define M100_FREE_MEMORY_WATCHER/\#define M100_FREE_MEMORY_WATCHER/' "$FILE"
 check_return $?
 
-# Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
-echo "        Setting Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)... \\c"
-sed -i -e 's/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/' "$FILE"
-check_return $?
-
 # Enable: Print Counter
 echo "        Enabling Print Counter... \\c"
 sed -i -e 's/\/\/\#define PRINTCOUNTER/\#define PRINTCOUNTER/' "$FILE"
@@ -147,9 +142,19 @@ echo "        Enabling SD Card support... \\c"
 sed -i -e 's/\/\/\#define SDSUPPORT/\#define SDSUPPORT/' "$FILE"
 check_return $?
 
+# Set: Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)
+echo "        Setting Motherboard to RAMPS v1.4 EFB (Extruder, Fan, Bed)... \\c"
+sed -i -e 's/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/  \#define MOTHERBOARD BOARD_RAMPS_14_EFB/' "$FILE"
+check_return $?
+
 # Set: Thermistor minimum temperature to 0
 echo "        Setting Thermistor minimum temperature to 0... \\c"
 sed -i -e 's/\#define HEATER_0_MINTEMP 5/\#define HEATER_0_MINTEMP 0/' "$FILE"
+check_return $?
+
+# Set: UUID
+echo "        Setting UUID... \\c"
+sed -i -e 's/\/\/\#define MACHINE_UUID \"00000000-0000-0000-0000-000000000000\"/\#define MACHINE_UUID \"ac0e4435-fb22-47ba-81c3-e455b2deea40\"/' "$FILE"
 check_return $?
 
 # Set: Printer name
