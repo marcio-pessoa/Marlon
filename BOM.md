@@ -45,9 +45,11 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     4 | SK8                  |   272564840128 | 2019-03-31 | pending    | each |   3.96 |       |        |
 |     2 | Fan_50x50x10         | pending        | pending    | pending    | each |   0.00 |  0.00 |   0.00 |
 |     ? | GT2_belt             | pending        | pending    | pending    | cm   |   0.00 |  0.00 |   0.00 |
+|     1 | Extruder_Carriage    |   382749311851 | 2019-03-10 | 2019-03-dd | cm   |  22.38 |  1.48 |  23.86 |
+|     1 | Hot_bed              |   302931840885 | 2018-12-20 | 2019-03-dd | cm   |  32.93 |  5.97 |  38.90 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $456.24
+Total cost: $519.00
