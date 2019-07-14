@@ -15,7 +15,7 @@
 >
 > As a community product, Marlin aims to be adaptable to as many boards and configurations as possible. We want it to be configurable, customizable, extensible, and economical for hobbyists and vendors alike. A Marlin build can be very small, for use on a headless printer with only modest hardware. Features are enabled as-needed to adapt Marlin to added components."
 >
-> -- From: [Marlin web page]
+> -- From: [Marlin web page] and [Marlin GitHub]
 
 #### Configuring
 [Marlin Configuring]
@@ -38,4 +38,5 @@ M107: Off
 [Marlin on GitHub]: https://github.com/MarlinFirmware/Marlin
 [Marlin G-code]: http://marlinfw.org/meta/gcode/
 [Marlin Configuring]: http://marlinfw.org/docs/configuration/configuration.html
-[Marlin web page]: https://github.com/MarlinFirmware/Marlin
+[Marlin web page]: http://marlinfw.org/
+[Marlin GitHub]: https://github.com/MarlinFirmware/Marlin
