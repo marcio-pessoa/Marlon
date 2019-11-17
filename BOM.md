@@ -48,9 +48,12 @@ Marlon Mark I - 3D Printer, Bill of materials
 |     1 | Extruder_Carriage    |   382749311851 | 2019-03-10 | 2019-03-dd | cm   |  22.38 |  1.48 |  23.86 |
 |     1 | Hot_bed              |   302931840885 | 2018-12-20 | 2019-03-dd | cm   |  32.93 |  5.97 |  38.90 |
 |     8 | Screw_hex_M5_10mm    |   182973693071 | 2019-05-04 | pending    | each |   2.38 |  0.14 |   2.52 |
+|     2 | SK8                  |   232670339051 | 2018-11-27 | 2019-mm-dd | each |   4.25 |  0.26 |   4.51 |
+|     2 | SK6                  |   182971368756 | 2017-07-01 | 2019-09-dd | each |   6.21 |  0.40 |   6.61 |
+|     1 | Celeron_360x241x2mm  | pending        | pending    | pending    | each |        |       |        |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $519.00
+Total cost: $532.64
