@@ -1,6 +1,10 @@
 # CHANGELOG
 Marlon Mark I - 3D Printer, Change log
 
+## [2.0.0] - 2019-12-03
+### Tested
+- Just tested new Marlin firmware version.
+
 ## [1.1.9] - 2018-08-21
 ### Tested
 - Just tested new Marlin firmware version.
