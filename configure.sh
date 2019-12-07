@@ -9,6 +9,9 @@
 # Contributors: none
 #
 # Change log:
+# 2019-12-05
+#         Tested on: Marlin 2.0.0.
+#
 # 2018-12-28
 #         Tested on: Marlin 1.1.9.
 #         Set: UUID.
