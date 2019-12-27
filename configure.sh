@@ -74,7 +74,6 @@
 #
 
 # Variables
-action=$1
 readonly WORKDIR="Marlin"
 
 check_return() {
@@ -94,7 +93,11 @@ get_updates() {
   git checkout -- "$file"  # Restore original file
   check_return $?
   echo "Getting firmware updates to $WORKDIR $(git show-branch)... \\c"
-  git pull  # Get updates from Github
+  #git pull  # Get updates from Github
+  git submodule sync
+  check_return $?
+  git submodule update --init --recursive --remote
+  check_return $?
 }
 
 date +'Started at: %Y-%m-%d %H:%M:%S'
@@ -174,24 +177,4 @@ echo "        Setting Who made the changes... \\c"
 sed -i -e 's/#define STRING_CONFIG_H_AUTHOR \"(none, default config)\"/\#define STRING_CONFIG_H_AUTHOR \"Marcio Pessoa\"/' "$FILE"
 check_return $?
 
-# Invoke xc
-echo "Starting xC (Axes Controller)..."
-case "$action" in
-  'verify')
-    xc "$action" --id marlon --verbosity=3
-    exit $?
-    ;;
-  'upload')
-    xc "$action" --id marlon --verbosity=3
-    exit $?
-    ;;
-  *)
-    echo ""
-    echo "Invalid option."
-    echo ""
-    echo "Usage:"
-    echo "configure.sh verify"
-    echo "configure.sh upload"
-    exit 1
-    ;;
-esac
+echo "Done."

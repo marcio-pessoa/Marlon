@@ -76,10 +76,12 @@ Technical specifications:
 
 ### Elevator (z axis)
 
+#### Base
+Technical specifications:
+- Material: Celeron
+
 #### LMH8UU
 ![LMH8UU](Pictures/LMH8UU.jpg)
-
-Technical specifications:
 
 #### SHF
 ![SHF](Pictures/SHF8.png)
@@ -120,5 +122,6 @@ Technical specifications:
 
 ---
 
+[Celeron TechSpecs]: dados-tecnicos-celeron.pdf
 [Main page]: ../README.md
 [CoreXY]: http://corexy.com/
