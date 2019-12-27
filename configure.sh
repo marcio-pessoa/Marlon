@@ -100,6 +100,7 @@ get_updates() {
   check_return $?
 }
 
+echo "$0"
 date +'Started at: %Y-%m-%d %H:%M:%S'
 
 cd $WORKDIR || exit
@@ -178,3 +179,4 @@ sed -i -e 's/#define STRING_CONFIG_H_AUTHOR \"(none, default config)\"/\#define 
 check_return $?
 
 echo "Done."
+echo
