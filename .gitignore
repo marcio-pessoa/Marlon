@@ -33,3 +33,6 @@
 
 .vscode
 Reference/
+.geany
+.buildno
+task.log
